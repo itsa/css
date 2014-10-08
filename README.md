@@ -1,4 +1,1 @@
-css
-===
-
-CSS normalization using purecss and a small number of custom styles
+For information, api and documentation about this module: visit <b><a href="http://itsa.io">itsa.io</a></b>
