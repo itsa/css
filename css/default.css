@@ -1,0 +1,16 @@
+a:focus {
+    outline: 0;
+}
+
+a[target="_blank"]:focus {
+    outline: 1px solid #129fea;
+}
+
+/* because we think the padding and margin should always be part of the size,
+   we define "box-sizing: border-box" for all elements */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}

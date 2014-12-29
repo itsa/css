@@ -1,0 +1,42 @@
+{
+    "name": "css",
+    "version": "0.0.1",
+    "description": "CSS normalization using purecss and a small number of custom styles",
+    "author": [
+        {
+            "name": "Marco Asbreuk",
+            "email": "marco@itsasbreuk.nl"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/itsa/css"
+    },
+    "bugs": {
+        "url": "https://github.com/itsa/css/issues"
+    },
+    "keywords": [
+        "itsa",
+        "css",
+        "pure",
+        "purecss"
+    ],
+    "main": "index.js",
+    "engines": {
+        "node": "*"
+    },
+    "directories": {
+        "css": "./css"
+    },
+    "dependencies": {
+        "purecss": "^1.9.1"
+    },
+    "homepage": "http://itsa.github.io",
+    "maintainers": [
+        {
+            "name": "Marco Asbreuk",
+            "email": "marco@itsasbreuk.nl"
+        }
+    ],
+    "license": "New BSD"
+}
