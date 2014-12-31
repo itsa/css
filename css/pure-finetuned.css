@@ -1,0 +1,43 @@
+.pure-menu.pure-menu-open {
+    z-index: 3; /* prevent graph from crossing the menuarea */
+}
+
+.pure-button.pure-button-bordered,
+.pure-button.pure-button-bordered[disabled] {
+    box-shadow: 0 0 0 1px rgba(0,0,0, 0.15) inset;
+}
+
+.pure-button.pure-button-bordered:focus,
+.pure-button.pure-button-bordered[disabled]:focus,
+.pure-button.pure-button-bordered:focus,
+.pure-button.pure-button-bordered[disabled]:focus,
+.pure-button.pure-button-bordered.focussed,
+.pure-button.pure-button-bordered[disabled].focussed,
+.pure-button.pure-button-bordered.focussed,
+.pure-button.pure-button-bordered[disabled].focussed {
+    box-shadow: 0 0 0 1px rgba(0,0,0, 0.4) inset;
+}
+
+/* restore pure-button:active */
+.pure-button.pure-button-bordered:active,
+.pure-button.pure-button-bordered.pure-button-active,
+.pure-button:active:focus,
+.pure-button.pure-button-active:focus {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.4) inset, 0 0 10px rgba(0, 0, 0, 0.3) inset;
+}
+
+.pure-button.pure-button-rounded {
+    border-radius: 0.3em;
+}
+
+.pure-button.pure-button-heavyrounded {
+    border-radius: 0.5em;
+}
+
+.pure-button.pure-button-oval {
+    border-radius: 50%;
+}
+
+.pure-button.pure-button-halfoval {
+    border-radius: 25%;
+}
