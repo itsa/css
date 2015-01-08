@@ -28,9 +28,6 @@
     "directories": {
         "css": "./css"
     },
-    "dependencies": {
-        "purecss": "^1.9.1"
-    },
     "homepage": "http://itsa.github.io",
     "maintainers": [
         {
