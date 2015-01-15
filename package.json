@@ -22,6 +22,9 @@
         "purecss"
     ],
     "main": "index.js",
+    "browserify": {
+        "transform": ["cssify"]
+    },
     "engines": {
         "node": "*"
     },
