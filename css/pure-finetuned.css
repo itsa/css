@@ -7,6 +7,15 @@
     box-shadow: 0 0 0 1px rgba(0,0,0, 0.15) inset;
 }
 
+.pure-button-active,
+.pure-button:active,
+.pure-button.pure-button-bordered.pure-button-active,
+.pure-button.pure-button-bordered.pure-button-active[disabled],
+.pure-button.pure-button-bordered:active,
+.pure-button.pure-button-bordered[disabled]:active {
+    box-shadow: 0 0 0 1px rgba(0,0,0, 0.4) inset, 0 0 6px rgba(0,0,0, 0.2) inset;
+}
+
 .pure-button.pure-button-bordered:focus,
 .pure-button.pure-button-bordered[disabled]:focus,
 .pure-button.pure-button-bordered:focus,
@@ -15,7 +24,7 @@
 .pure-button.pure-button-bordered[disabled].focussed,
 .pure-button.pure-button-bordered.focussed,
 .pure-button.pure-button-bordered[disabled].focussed {
-    box-shadow: 0 0 0 1px rgba(0,0,0, 0.4) inset;
+    box-shadow: 0 0 0 1px rgba(0,0,0, 0.6) inset;
 }
 
 /* restore pure-button:active */
@@ -23,7 +32,7 @@
 .pure-button.pure-button-bordered.pure-button-active,
 .pure-button:active:focus,
 .pure-button.pure-button-active:focus {
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.4) inset, 0 0 10px rgba(0, 0, 0, 0.3) inset;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.6) inset, 0 0 10px rgba(0, 0, 0, 0.2) inset;
 }
 
 .pure-button.pure-button-rounded {
